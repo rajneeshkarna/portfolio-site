@@ -138,3 +138,46 @@
   margin: 12px 150px 12px 600px;
   font-size: 21px;
 }
+
+.action-container{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action{
+  padding: 60px 150px;
+  display: flex;
+  gap: 180px;
+  background-color: #3882f6;
+  border-radius: 9px;
+}
+
+.action-left{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.call-action{
+  color: #f9faf8;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.our-product{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.action-right button{
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  width: 210px;
+  padding: 12px 24px;
+  color: #f9faf8;
+  font-weight: 800;
+  font-size: 21px;
+  border-radius: 9px;
+}
