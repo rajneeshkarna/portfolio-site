@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto';
-  color: white;
 }
 
 .hero-section{
@@ -29,6 +28,8 @@
 .header-right{
   display: flex;
   gap: 36px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .section{
@@ -53,7 +54,8 @@
 }
 
 .light{
-  
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .button button{
@@ -71,4 +73,45 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+
+.white-middle-bg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  gap: 24px;
+}
+
+.white-middle-bg p{
+  margin-top: 36px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.skills-container{
+  display: flex;
+  gap: 48px;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #3882f6;
+  border-radius: 9px;
+}
+
+.skills img{
+  width: 210px;
+  height: 270px;
+  border-radius: 6px 6px 0px 0spx;
+}
+
+.skills p{
+  color: #626468;
+  font-size: 18px;
+  font-weight: 600;
 }
