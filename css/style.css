@@ -119,14 +119,22 @@
 .quote-section{
   height: 450px;
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote{
   font-size: 36px;
   font-weight: 100;
-  /* margin-top: 48px; */
   padding-top: 24px;
+  width: 75%;
   font-style: italic;
-  color: #1f2937;
-  border: 1px solid red;
+  color: #4f5864;
+}
+
+.author{
+  margin: 12px 150px 12px 600px;
+  font-size: 21px;
 }
