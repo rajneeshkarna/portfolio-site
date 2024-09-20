@@ -181,3 +181,13 @@
   font-size: 21px;
   border-radius: 9px;
 }
+
+.footer{
+  height: 110px;
+  font-size: 18px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
